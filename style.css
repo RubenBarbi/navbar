@@ -1,0 +1,44 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+nav ul li {
+    float: left;
+    border-right: 1px solid white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 14px 16px;
+    color: white;
+    display: block;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+.active {
+    background-color: #156A07;
+}
+
+.bg-1 {
+    background-image: url(kep/1.jpg);
+}
+
+.bg-2 {
+    background-image: url(kep/2.png);
+}
+
+.bg-3 {
+    background-image: url(kep/3.jpg);
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
